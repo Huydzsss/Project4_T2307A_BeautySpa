@@ -3,8 +3,8 @@ import { lazy } from 'react';
 // project imports
 import Loadable from 'components/Loadable';
 import DashboardLayout from 'layout/Dashboard';
-import ServiceManagement from '../pages/spa/service';
-import AppointmentManagement from '../pages/spa/appoinment';
+import ServiceManagement from '../../../../fe-admin/src/pages/spa/service';
+import AppointmentManagement from '../../../../fe-admin/src/pages/spa/appoinment';
 
 // render- Dashboard
 const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/default')));
